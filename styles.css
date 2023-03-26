@@ -1,0 +1,173 @@
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+/* Heading */
+.big-button{
+    word-spacing: 2rem;
+    line-height: 1.6;
+    font-size: 3.25rem;
+
+}
+
+#title{
+background-color: #ff4c68;
+}
+.container-fluid{
+    padding: 3% 15% 6%;
+
+}
+#title{
+    color: white;
+
+}
+
+
+/* Navigation Bar */
+.navbar{
+    padding: 0 0 6.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+/* Buttons */
+.download-button{
+    margin:8% 3% 5% 0; 
+}
+
+/* Title Image */
+.title-image{
+    width: 20%;
+    transform: rotate(30deg);
+    position: absolute;
+    right: 23%;
+}
+
+.tick{
+    size: 2.5rem;
+}
+
+/* Feature-section */
+#features{
+    padding:7% 15% ;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    text-align: center;
+    padding: 6%;
+}
+.feature-text{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #8f8f8f;
+    font-size: 1.3rem;
+}
+.icon-fa{
+    margin-bottom: 1.3rem;
+    color: #ef8172;
+}
+.icon-fa:hover{
+    color: #ff4c68;
+}
+
+/* Testimoials */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+/* Press */
+.press-company{
+   width: 15%;
+   margin: 20px 20px 50px;
+}
+.text-pricing{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #8f8f8f;
+    font-size: 1.3rem;
+}
+
+
+/* Pricing */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+/* Call to action */
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.cta-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    height: 1.5;
+}
+
+/* Footer */
+#footer{
+padding: 7% 15%;
+text-align: center;
+}
+.social-icons{
+    margin: 20px 10px;
+}
+
+
+
+
+
+
+
+
+@media (max-width:1200px){
+    .title-image{
+        text-align: center;
+        width: 70%;
+        position: static;
+        transform:rotate(0deg); 
+    }
+    #title{
+        text-align: center;
+    }
+    
+}
